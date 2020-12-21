@@ -1,0 +1,212 @@
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    button {
+        font-size: 10px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .navbar {
+        height: 45px;
+    }
+    .navbar img {
+        height: 35px;
+    }
+    header {
+        padding: 0px 10px;
+        height: 100px;
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    header img {
+        height: 100px;
+        margin: 30px 0px 0px 0px;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 25px 0px;
+    }
+    .title-lv1 {
+        font-size: 18px;
+    }
+    .title-lv3 {
+        font-size: 12px;
+    }
+    .portfolio-item, .event-item {
+        font-size: 9px;
+        letter-spacing: 0px;
+        line-height: 11px;
+        word-spacing: 0px;
+    }
+    .portfolio-item {
+        padding: 15px;
+    }
+    .portfolio-item img {
+        height: 90px;
+        margin: 0px 0px 0px 5px;
+    }
+    .portfolio-item .title-lv3, .portfolio-item h6, .portfolio-item p {
+        margin: 0px 0px 3px 0px;
+    }
+    .events-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: 10px 0px;
+    }
+    .event-item {
+        padding-bottom: 30px;
+    }
+    .event-item div {
+        padding: 20px;
+        margin: -50px 20px 0px 20px;
+    }
+    .event-item p {
+        margin: 15px 0px;
+    }
+    #banner img {
+        height: 150px;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .contact .title-contact {
+        font-size: 13px;
+    }
+    .contact .input-container .input-icon {
+        font-size: 12px;
+    }
+    .contact .input-container input {
+        height: 20px;
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 0px 0px 0px 25px;
+    }
+    .contact .social-links {
+        font-size: 17px;
+        letter-spacing: 10px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        height: 55px;
+    }
+    .navbar img {
+        height: 45px;
+    }
+    header {
+        height: 150px;
+        padding: 20px;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    header img {
+        height: 150px;
+        margin: 20px 0px 0px 0px;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 25px 0px;
+    }
+    .title-lv1 {
+        font-size: 28px;
+    }
+    .title-lv3 {
+        font-size: 18px;
+    }
+    .portfolio-item, .event-item {
+        font-size: 14px;
+        line-height: 16px;
+        word-spacing: 1px;
+    }
+    .portfolio-item {
+        padding: 15px;
+    }
+    .portfolio-item img {
+        height: 130px;
+        margin: 0px 0px 0px 5px;
+    }
+    .events-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: 10px 0px;
+    }
+    .event-item {
+        padding-bottom: 30px;
+    }
+    .event-item div {
+        padding: 20px;
+        margin: -50px 30px 0px 30px;
+    }
+    #banner img {
+        height: 220px;
+    }
+    .contact {
+        height: 170px;
+    }
+    .contact .title-contact {
+        font-size: 20px;
+    }
+    .contact .input-container .input-icon {
+        font-size: 14px;
+    }
+    .contact .input-container input {
+        height: 30px;
+        font-size: 14px;
+        border-radius: 4px;
+        padding: 0px 0px 0px 25px;
+    }
+    .contact .social-links {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+    .footer {
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        height: 200px;
+        padding: 20px;
+        font-size: 34px;
+        letter-spacing: 4px;
+    }
+    header img {
+        height: 200px;
+        margin: 20px 0px 0px 0px;
+    }
+    .portfolio-item, .event-item {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .portfolio-item img {
+        height: 240px;
+        margin: 0px 0px 0px 5px;
+    }
+    .events-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: 10px 0px;
+    }
+    #banner img {
+        height: 300px;
+    }
+    .contact .social-links {
+        font-size: 38px;
+        letter-spacing: 10px;
+    }
+}
