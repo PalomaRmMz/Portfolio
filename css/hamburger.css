@@ -1,0 +1,30 @@
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .navbar .nav-items {
+        display: inline-block;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        height: 100%;
+        background-color: #0d1725;
+        padding: 10px 20px 0px 20px;
+    }
+    .navbar .menu-button{
+        display: inline;
+    }
+    .navbar .nav-items img {
+        display: block;
+        margin: auto;
+    }
+    .navbar .nav-items hr {
+        display: block;
+        margin: 20px -20px;
+        border-top: .3px;
+    }
+    .navbar .nav-items li {
+        line-height: 40px;
+        font-weight: 100;
+    }
+    .navbar .nav-items a i {
+        display: inline-block;
+    }
+}
