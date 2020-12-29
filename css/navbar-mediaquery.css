@@ -1,28 +1,35 @@
-@media screen and (min-width: 0px) and (max-width: 620px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .web-container {
+        opacity: 0.5 !important;
+        margin-top: -70px;
+    }
     .navbar {
-        display: flex;
-        justify-content: center;
-        /* z-index: 97; */
+        background: transparent !important;
+        box-shadow: none;
     }
     .navbar .nav-items {
         display: inline-block;
         position: fixed;
         left: 0;
         top: 0px;
-        /* z-index: 98; */
         height: 100%;
-        background-color: red;
-        /* background-color: #0d1725; */
+        background-color: #0d1725;
         padding: 10px 20px 0px 20px;
     }
     .navbar img {
         display: none;
     }
     .navbar .nav-items img {
-        display: inline;
+        display: block;
+        margin: auto;
+    }
+    .navbar .nav-items hr {
+        display: block;
+        margin: 20px -20px;
+        border-top: .3px;
     }
     .navbar .nav-items li {
-        line-height: 30px;
+        line-height: 40px;
         font-weight: 100;
     }
     .navbar .nav-items a i {
