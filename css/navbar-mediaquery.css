@@ -1,0 +1,31 @@
+@media screen and (min-width: 0px) and (max-width: 620px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        /* z-index: 97; */
+    }
+    .navbar .nav-items {
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        top: 0px;
+        /* z-index: 98; */
+        height: 100%;
+        background-color: red;
+        /* background-color: #0d1725; */
+        padding: 10px 20px 0px 20px;
+    }
+    .navbar img {
+        display: none;
+    }
+    .navbar .nav-items img {
+        display: inline;
+    }
+    .navbar .nav-items li {
+        line-height: 30px;
+        font-weight: 100;
+    }
+    .navbar .nav-items a i {
+        display: inline-block;
+    }
+}

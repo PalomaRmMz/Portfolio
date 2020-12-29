@@ -6,12 +6,15 @@
         padding: 5px 15px;
         border-radius: 5px;
     }
-    .navbar {
+    .menu-button {
+        display: block;
+    }
+    /*.navbar {
         height: 45px;
     }
     .navbar img {
         height: 35px;
-    }
+    }*/
     header {
         padding: 0px 10px;
         height: 100px;
@@ -97,12 +100,12 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .navbar {
+    /*.navbar {
         height: 55px;
     }
     .navbar img {
         height: 45px;
-    }
+    }*/
     header {
         height: 150px;
         padding: 20px;
