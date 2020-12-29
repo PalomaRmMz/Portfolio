@@ -1,4 +1,8 @@
 @media screen and (min-width: 0px) and (max-width: 700px) {
+    .navbar .logo{
+        position: relative;
+        margin: auto;
+    }
     .navbar .nav-items {
         display: inline-block;
         position: fixed;
@@ -8,6 +12,7 @@
         background-color: #0d1725;
         padding: 10px 20px 0px 20px;
     }
+    
     .navbar .menu-button{
         display: inline;
     }
