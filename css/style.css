@@ -35,13 +35,18 @@ button:hover {
     background-color: #0d1725;
 }
 
-.menu-button {
+.fa-bars, .fa-times {
     font-size: 30px;
     color: #ffffff;
     font-weight: bolder;
-    display: none;
-    position: fixed;
     z-index: 91;
+    cursor: pointer;
+}
+#check-button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
     cursor: pointer;
 }
 

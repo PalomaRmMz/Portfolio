@@ -1,5 +1,5 @@
 @media screen and (min-width: 0px) and (max-width: 700px) {
-    .navbar .logo{
+    .navbar .logo {
         position: relative;
         margin: auto;
     }
@@ -10,11 +10,17 @@
         top: 0px;
         height: 100%;
         background-color: #0d1725;
-        padding: 10px 20px 0px 20px;
+        padding: 70px 20px 0px 20px;
     }
-    
-    .navbar .menu-button{
-        display: inline;
+    #check-button {
+        opacity: 0;
+    }
+    #check-button:checked~.fa-bars, #check-button:not(:checked)~.fa-times, #check-button:checked~.logo {
+        display: none;
+    }
+
+    #check-button:checked~.nav-items {
+        left: 0;
     }
     .navbar .nav-items img {
         display: block;
