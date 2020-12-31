@@ -41,13 +41,16 @@ button:hover {
     font-weight: bolder;
     z-index: 91;
     cursor: pointer;
+    display: none;
 }
-#check-button{
+
+#check-button {
     position: absolute;
     width: 30px;
     height: 30px;
     z-index: 100;
     cursor: pointer;
+    display: none;
 }
 
 .navbar {
@@ -76,7 +79,7 @@ button:hover {
     gap: 25px;
 }
 
-.navbar .nav-items img {
+.logo-hamburger {
     display: none;
 }
 

@@ -1,5 +1,5 @@
 @media screen and (min-width: 0px) and (max-width: 700px) {
-    .navbar .logo {
+    .logo {
         position: relative;
         margin: auto;
     }
@@ -12,17 +12,20 @@
         background-color: #0d1725;
         padding: 70px 20px 0px 20px;
     }
+    .fa-bars, .fa-times {
+        display: inline;
+    }
     #check-button {
+        display: inline;
         opacity: 0;
     }
     #check-button:checked~.fa-bars, #check-button:not(:checked)~.fa-times, #check-button:checked~.logo {
         display: none;
     }
-
     #check-button:checked~.nav-items {
         left: 0;
     }
-    .navbar .nav-items img {
+    .logo-hamburger {
         display: block;
         margin: auto;
     }
