@@ -1,18 +1,42 @@
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 774px) {
     button {
+        padding: 8px 20px;
+        font-weight: bold;
         font-size: 10px;
-        word-spacing: 0px;
-        letter-spacing: 0px;
-        padding: 5px 15px;
-        border-radius: 5px;
     }
+    .contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .title-contact {
+        font-size: 25px;
+    }
+    .contact .input-container input {
+        height: 25px;
+    }
+    .contact .social-links {
+        letter-spacing: 20px;
+        font-size: 30px;
+    }
+    .contact .input-container .input-icon {
+        font-size: 13px;
+        height: 25px;
+    }
+    .footer {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
     .menu-button {
         display: block;
     }
     header {
         padding: 0px 10px;
         height: 100px;
-        font-size: 12px;
+        font-size: 15px;
         letter-spacing: 3px;
     }
     header img {
@@ -25,15 +49,15 @@
         padding: 25px 0px;
     }
     .title-lv1 {
-        font-size: 18px;
+        font-size: 22px;
     }
     .title-lv3 {
-        font-size: 12px;
+        font-size: 15px;
     }
     .portfolio-item, .event-item {
-        font-size: 9px;
+        font-size: 11px;
         letter-spacing: 0px;
-        line-height: 11px;
+        line-height: 13px;
         word-spacing: 0px;
     }
     .portfolio-item {
@@ -63,41 +87,15 @@
         margin: 15px 0px;
     }
     #banner img {
-        height: 150px;
-    }
-    .contact {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-    }
-    .contact .title-contact {
-        font-size: 13px;
-    }
-    .contact .input-container .input-icon {
-        font-size: 12px;
-    }
-    .contact .input-container input {
-        height: 20px;
-        font-size: 12px;
-        border-radius: 4px;
-        padding: 0px 0px 0px 25px;
-    }
-    .contact .social-links {
-        font-size: 17px;
-        letter-spacing: 10px;
-    }
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        font-size: 12px;
+        height: 130px;
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 774px) {
     header {
         height: 150px;
         padding: 20px;
-        font-size: 22px;
+        font-size: 24px;
         letter-spacing: 3px;
     }
     header img {
@@ -110,10 +108,10 @@
         padding: 25px 0px;
     }
     .title-lv1 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .title-lv3 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .portfolio-item, .event-item {
         font-size: 14px;
@@ -141,34 +139,20 @@
         margin: -50px 30px 0px 30px;
     }
     #banner img {
-        height: 220px;
+        height: 230px;
     }
     .contact {
-        height: 170px;
+        height: 150px;
     }
     .contact .title-contact {
         font-size: 20px;
     }
     .contact .input-container .input-icon {
-        font-size: 14px;
-    }
-    .contact .input-container input {
-        height: 30px;
-        font-size: 14px;
-        border-radius: 4px;
-        padding: 0px 0px 0px 25px;
-    }
-    .contact .social-links {
-        font-size: 25px;
-        letter-spacing: 4px;
-    }
-    .footer {
-        height: 30px;
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 775px) and (max-width: 1024px) {
     header {
         height: 200px;
         padding: 20px;
@@ -194,10 +178,11 @@
         margin: 10px 0px;
     }
     #banner img {
-        height: 300px;
+        height: 330px;
     }
-    .contact .social-links {
-        font-size: 38px;
-        letter-spacing: 10px;
+    .contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
