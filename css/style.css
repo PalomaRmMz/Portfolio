@@ -35,24 +35,6 @@ button:hover {
     background-color: #0d1725;
 }
 
-.fa-bars, .fa-times {
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: bolder;
-    z-index: 91;
-    cursor: pointer;
-    display: none;
-}
-
-#check-button {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    z-index: 100;
-    cursor: pointer;
-    display: none;
-}
-
 .navbar {
     background-color: #0d1725;
     height: 70px;
@@ -70,6 +52,24 @@ button:hover {
     z-index: 90;
 }
 
+#check-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    cursor: pointer;
+    display: none;
+}
+
+.fa-bars, .fa-times {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bolder;
+    z-index: 91;
+    cursor: pointer;
+    display: none;
+}
+
 .navbar img {
     height: 60px;
 }
@@ -79,11 +79,7 @@ button:hover {
     gap: 25px;
 }
 
-.logo-hamburger {
-    display: none;
-}
-
-.navbar .nav-items hr {
+.logo-hamburger, .navbar .nav-items hr {
     display: none;
 }
 
