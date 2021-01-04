@@ -1,0 +1,58 @@
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar .nav-items {
+        display: inline-block;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        height: 100%;
+        background-color: #0d1725;
+        padding: 70px 20px 0px 20px;
+        transition: 1s;
+    }
+    #check-button {
+        opacity: 0;
+    }
+    #check-button, .fa-bars, .fa-times {
+        position: fixed;
+        display: inline;
+        margin: 20px;
+    }
+    #check-button:checked~.fa-bars, #check-button:not(:checked)~.fa-times, #check-button:checked~.navbar .logo {
+        display: none;
+    }
+    #check-button:checked~.web-container {
+        opacity: 0.5 !important;
+        margin-top: -70px;
+        transition: 1s;
+    }
+    #check-button:checked~.navbar {
+        background: transparent !important;
+        box-shadow: none;
+        transition: 1s;
+    }
+    #check-button:checked~.navbar .nav-items {
+        left: 0;
+        transition: 1s;
+    }
+    .logo-hamburger {
+        display: block;
+        margin: auto;
+    }
+    .navbar .nav-items hr {
+        display: block;
+        margin: 20px;
+        border-top: .3px;
+    }
+    .navbar .nav-items li {
+        line-height: 40px;
+        font-weight: 100;
+    }
+    .navbar .nav-items a i {
+        display: inline-block;
+    }
+}
