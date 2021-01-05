@@ -87,6 +87,10 @@ button:hover {
     text-shadow: 2px 2px 2px #6b6b6b;
 }
 
+.navbar a:hover{
+    color: #d3d3d3;
+}
+
 .navbar .nav-items a i {
     display: none;
 }
@@ -201,7 +205,6 @@ header img {
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    border: 1px solid blue;
 }
 
 .contact .title-contact {
