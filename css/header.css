@@ -1,0 +1,19 @@
+header {
+    background-image: linear-gradient( 45deg, #0d1725 0%, #2f2f54 50%, #126f82 100%);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: #ffffff;
+}
+
+header strong, .title-lv1 {
+    color: #126f82;
+}
+
+header img {
+    height: 330px;
+    margin: 100px 0px 0px 0px;
+}

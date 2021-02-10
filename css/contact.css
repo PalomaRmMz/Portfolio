@@ -1,0 +1,49 @@
+.contact {
+    background-color: #0d1725;
+    height: 200px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 30px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 20%, 0 0);
+    margin-top: -63px;
+}
+
+.contact .title-contact {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.contact .input-container {
+    position: relative;
+}
+
+.contact .input-container .input-icon {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 0.5em);
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.contact .input-container input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 0px 0px 45px;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.contact button {
+    display: block;
+}
+
+.contact .social-links {
+    letter-spacing: 20px;
+    font-size: 40px;
+}

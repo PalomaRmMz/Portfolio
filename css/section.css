@@ -1,0 +1,101 @@
+.text-section {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#about-me-container {
+    /* background-color: #f0f0f0; */
+    /* clip-path: polygon(0 85%, 50% 100%, 100% 85%, 100% 0, 0 0); */
+    /* margin-top: 30px; */
+    padding: 100px 0;
+}
+
+#animations-css-container {
+    /* clip-path: polygon(0 90%, 50% 100%, 100% 90%, 100% 0, 0 0); */
+    background-color: #f0f0f0;
+    clip-path: polygon(0 90%, 50% 100%, 100% 90%, 100% 0, 50% 10%, 0 0);
+    padding: 100px 150px;
+}
+
+#courses-platzi-container {
+    background-color: #f0f0f0;
+    /* clip-path: polygon(0 95%, 50% 100%, 100% 95%, 100% 0, 0 0); */
+    clip-path: polygon(0 95%, 50% 100%, 100% 95%, 100% 0, 50% 5%, 0 0);
+    padding: 100px 150px;
+    /* margin-top: -70px; */
+}
+
+#repository-github-container {
+    /* clip-path: polygon(0 90%, 50% 100%, 100% 90%, 100% 0, 0 0); */
+    background-color: #f0f0f0;
+    clip-path: polygon(0 90%, 50% 100%, 100% 90%, 100% 0, 50% 11%, 0 0);
+    padding: 100px 150px;
+    /* margin-top: -70px; */
+}
+
+#about-me {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+#animations-css {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+#about-me img {
+    height: 80px;
+    margin: auto;
+}
+
+#animations-css img {
+    width: 600px;
+}
+
+#animations-css div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#courses-platzi ul {
+    margin: 20px 0 20px 40px;
+}
+
+#courses-platzi ul li {
+    margin: 8px 0;
+}
+
+#courses-platzi-container #courses-platzi #img-career {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#courses-platzi-container #courses-platzi .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#courses-platzi-container #courses-platzi .courses div {
+    padding: 20px;
+    text-align: justify;
+}
+
+#repository-github img {
+    width: 200px;
+}
+
+#repository-github .title-lv3 {
+    text-align: center;
+    margin-top: -20px !important;
+}
+
+#repository-github-container #repository-github div div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

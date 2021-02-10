@@ -11,7 +11,12 @@
     <script src="https://kit.fontawesome.com/71211afe2d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaquery.css">
-    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/mq-hamburger.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -19,26 +24,50 @@
     <span class="fas fa-bars"></span>
     <span class="fas fa-times"></span>
     <nav class="navbar">
-        <a href="">
-            <img src="./img/logo.png" alt="logo" class="logo">
-        </a>
+        <a href=""><img src="./img/logo.png" alt="logo" class="logo"></a>
         <ul class="nav-items">
             <li>
                 <span class="logo-hamburger">
                     <img src="./img/logo.png" alt="logo">
                 </span>
             </li>
-            <hr>
+            <!-- <hr /> -->
             <li>
-                <a href="#portfolio"><i class="fas fa-suitcase"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portafolio</a>
+                <a href="#animations-css3"><i class="fas fa-suitcase"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portafolio</a>
             </li>
             <li>
-                <a href="#events"><i class="fas fa-id-card"></i>&nbsp;&nbsp;&nbsp;&nbsp;Experiencia</a>
+                <a href="#cursos-platzi"><i class="fas fa-id-card"></i>&nbsp;&nbsp;&nbsp;&nbsp;Experiencia</a>
             </li>
             <li>
                 <a href="#contact"><i class="fas fa-network-wired"></i>&nbsp;&nbsp;&nbsp;&nbsp;Trabajemos juntos</a>
             </li>
         </ul>
+        <!-- Modal Courses -->
+        <div id="diploma-html5" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close"><i class="fas fa-times-circle"></i></a>
+                <embed src="./files/diploma-html5-css3.pdf#toolbar=0&zoom=54" />
+            </div>
+        </div>
+        <div id="diploma-responsive-design" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close"><i class="fas fa-times-circle"></i></a>
+                <embed src="./files/diploma-responsive-design.pdf#toolbar=0&zoom=54" />
+            </div>
+        </div>
+        <div id="diploma-css-grid-layout" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close"><i class="fas fa-times-circle"></i></a>
+                <embed src="./files/diploma-css-grid-layout.pdf#toolbar=0&zoom=54" />
+            </div>
+        </div>
+        <div id="diploma-git-github" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close"><i class="fas fa-times-circle"></i></a>
+                <embed src="./files/diploma-git-github.pdf#toolbar=0&zoom=54" />
+            </div>
+        </div>
+        <!--  -->
     </nav>
     <div class="web-container">
         <header>
@@ -49,112 +78,158 @@
                     pasión por <strong>Javascript</strong>
                 </p>
             </div>
-            <div>
-                <img src="./img/header.png" alt="" srcset="">
-            </div>
+            <div><img src="./img/header.png" alt=""></div>
         </header>
-        <div class="container">
-            <span class="title-lv1">Portafolio (Proyectos Destacados)</span>
-            <section id="portfolio">
-                <article class="portfolio-item">
-                    <div>
-                        <span class="title-lv3">Desarrollo Web</span>
-                        <h6>React / React Native</h6>
-                        <p><small><strong>Fecha: </strong>01/01/2020</small></p>
-                        <p><small><strong>Puedes verlo en: </strong>www.platzi.com</small></p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto nesciunt nostrum atque
-                            corporis temporibus debitis provident pariatur voluptas, aut est facere fugiat qui esse
-                            eveniet
-                            dolore voluptatum libero eaque voluptatibus.
-                        </p>
-                        <button type="submit">Ver más</button>
-                    </div>
-                    <div>
-                        <img src="./img/portfolio1.png" alt="Portafolio1">
-                    </div>
-                </article>
-                <article class="portfolio-item">
-                    <div>
-                        <span class="title-lv3">Desarrollo Web</span>
-                        <h6>React / React Native</h6>
-                        <p><small><strong>Fecha: </strong>01/01/2020</small></p>
-                        <p><small><strong>Puedes verlo en: </strong>www.platzi.com</small></p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto nesciunt nostrum atque
-                            corporis temporibus debitis provident pariatur voluptas, aut est facere fugiat qui esse
-                            eveniet
-                            dolore voluptatum libero eaque voluptatibus.
-                        </p>
-                        <button type="submit">Ver más</button>
-                    </div>
-                    <div>
-                        <img src="./img/portfolio1.png" alt="Portafolio1">
-                    </div>
-                </article>
-            </section>
-            <span class="title-lv1">Más sobre mi experiencia</span>
-            <section id="events">
-                <div class="events-container">
-                    <article class="event-item">
-                        <img src="./img/experience1.jpg" alt="Platiz Conf 2018">
-                        <div>
-                            <span class="title-lv3">PlatizConf México 2018</span>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum deserunt veniam,
-                                praesentium
-                                assumenda quis non perspiciatis quidem totam, nulla ipsum? Nemo maiores nostrum
-                                eligendi!
-                            </p>
-                            <Button>Ver platica</Button>
-                        </div>
-                    </article>
-                    <article class="event-item">
-                        <img src="./img/experience1.jpg" alt="Platiz Conf 2018">
-                        <div>
-                            <span class="title-lv3">PlatizConf México 2018</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum deserunt veniam,
-                                praesentium
-                                assumenda quis non perspiciatis quidem totam, nulla ipsum? Nemo maiores nostrum
-                                eligendi!
-                            </p>
-                            <Button>Ver platica</Button>
-                        </div>
-                    </article>
-                    <article class="event-item">
-                        <img src="./img/experience1.jpg" alt="Platiz Conf 2018">
-                        <div>
-                            <span class="title-lv3">PlatizConf México 2018</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum deserunt veniam,
-                                praesentium
-                                assumenda quis non perspiciatis quidem totam, nulla ipsum? Nemo maiores nostrum
-                                eligendi!
-                            </p>
-                            <Button>Ver platica</Button>
-                        </div>
-                    </article>
-                    <article class="event-item">
-                        <img src="./img/experience1.jpg" alt="Platiz Conf 2018">
-                        <div>
-                            <span class="title-lv3">PlatizConf México 2018</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum deserunt veniam,
-                                praesentium
-                                assumenda quis non perspiciatis quidem totam, nulla ipsum? Nemo maiores nostrum
-                                eligendi!
-                            </p>
-                            <Button>Ver platica</Button>
-                        </div>
-                    </article>
-                </div>
-            </section>
+        <div id="about-me-container">
+            <p class="title-lv1">Sobre mi</p>
+            <div id="about-me">
+                <a href="#animations-css3">
+                    <img src="./img/animaciones.png" alt="Animaciones en CSS3">
+                </a>
+                <a href="#cursos-platzi">
+                    <img src="./img/platzi-logo.png" alt="Cursos Platzi">
+                </a>
+                <a href="#repository">
+                    <img src="./img/GitHub-Logo.png" alt="Repositorio">
+                </a>
+                <a href="#animations-css3">
+                    <h3>Animaciones en CSS3</h3>
+                </a>
+                <a href="#cursos-platzi">
+                    <h3>Cursos Platzi</h3>
+                </a>
+                <a href="#repository">
+                    <h3>Repositorio Github</h3>
+                </a>
+            </div>
         </div>
-        <section id="banner">
-            <img src="./img/banner1.jpg" alt="">
-        </section>
-        <section id="contact" class="contact">
+        <div id="animations-css-container">
+            <p class="title-lv1" id="animations-css3">Animaciones en CSS3</p>
+            <div id="animations-css">
+                <div>
+                    <p class="title-lv2">Sistema Solar</p>
+                    <p class="title-lv4">HTML5 y CSS3</p>
+                    <p class="title-lv5">Puedes verlo en: <a href="">Sistema Solar</a></p>
+                    <br />
+                    <p class="text-section">
+                        Dentro de los proyectos personales que estoy realizando en este momento, el <strong>Sistema
+                            Solar</strong> es uno de ellos. Es una aminacion hecha en CCS Pure, incluye solo código CSS
+                        y es de código abierto. Se aceptan aportes de mejora al mismo.
+                    </p>
+                    <br />
+                    <p class="text-section">
+                        Además, tambien forma parte de los proyectos hechos para los cursos de la carrera de
+                        <strong>Arquitectura Frontend</strong> de <strong>Platzi</strong>
+                    </p>
+                </div>
+                <div><img src="./img/solar-system.png" alt=""></div>
+            </div>
+        </div>
+        <div id="courses-platzi-container">
+            <p class="title-lv1" id="cursos-platzi">Cursos Platzi</p>
+            <div id="courses-platzi">
+                <p class="title-lv2">Arquitectura Frontend</p>
+                <div id="img-career"><img src="./img/arquitectura-frontend.png" alt="" /></div>
+                <div class="courses">
+                    <div>
+                        <p class="title-lv4">Curso de Desarrollo Web Online</p>
+                        <br />
+                        <p>
+                            <small>
+                                <strong>Fuente: </strong>
+                                <a href="https://platzi.com/cursos/html5-css3/">Curso de Desarrollo Web Online -
+                                    Platzi</a>
+                            </small>
+                        </p>
+                        <br />
+                        <p>
+                            En este curso reforce mis habilidades sobre el uso del <strong>Lenguaje HTML 5</strong> y
+                            <strong>CSS3</strong>. Como proyecto para el curso, realize el presente portafolio web con
+                            las tecnicas aprendidas.
+                        </p>
+                        <br />
+                        <a class="btn-course" href="#diploma-html5">Visualizar</a>
+                    </div>
+                    <div>
+                        <p class="title-lv4">Curso de Responsive Design</p>
+                        <br />
+                        <p>
+                            <small>
+                                <strong>Fuente: </strong>
+                                <a href="https://platzi.com/cursos/responsive-design">Curso de Responsive Design</a>
+                            </small>
+                        </p>
+                        <br />
+                        <p>
+                            El curso se enfoca en las nuevas tecnica de <strong>Responsive Design</strong> haciendo uso
+                            de CSS Pure, y sin el uso de bibliotecas
+                        </p>
+                        <br />
+                        <a class="btn-course" href="#diploma-responsive-design">Visualizar</a>
+                    </div>
+                    <div>
+                        <p class="title-lv4">Curso de CSS Grid Layout</p>
+                        <br />
+                        <p>
+                            <small>
+                                <strong>Fuente: </strong>
+                                <a href="https://platzi.com/cursos/css-grid-layout/"> Curso de CSS Grid Layout</a>
+                            </small>
+                        </p>
+                        <br />
+                        <p>
+                            Para lograr maquetar una web, es importante tener organizada la información, anteriormente
+                            esto se lograba con el uso de frames o tablas, pero resultaba poco practica al requerir un
+                            diseño mas flexible. Gracias a las nuevas actualizaciones de CSS, esto se puede lograr a
+                            través del uso de Grid Layout. Este curso me permitio manejar ampliamente esta técnica.
+                        </p>
+                        <br />
+                        <a class="btn-course" href="#diploma-css-grid-layout">Visualizar</a>
+                    </div>
+                    <div>
+                        <p class="title-lv4">Curso de Git y GitHub</p>
+                        <br />
+                        <p>
+                            <small>
+                                <strong>Fuente: </strong>
+                                <a href="https://platzi.com/cursos/git-github/"> Curso Profesional de Git y GitHub</a>
+                            </small>
+                        </p>
+                        <br />
+                        <p>
+                            Git es un sistema de control de versiones por excelencia usado en la industria de la
+                            tecnología. Es a través de este sistema de versiones a través del cual se gestionan pequeños
+                            y grandes proyectos y se alojan en la nube mediante GitHub.
+                        </p>
+                        <br />
+                        <p>
+                            Gracias a este curso, he creado mi perfil para gestionar mis proyectos.
+                        </p>
+                        <br />
+                        <a class="btn-course" href="#diploma-git-github">Visualizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="repository-github-container">
+            <p class="title-lv1" id="repository">Repositorio Github</p>
+            <div id="repository-github">
+                <div>
+                    <div><img src="./img/github.png" alt="" /></div>
+                    <p class="title-lv3">PalomaRmMz</p>
+                    <p class="title-lv5">Puedes verlo en: <a href="https://github.com/PalomaRmMz">PalomaRmMz</a></p>
+                    <br />
+                    <p class="text-section">
+                        Repositorio personal sobre los proyectos que estoy empezando, los que llevan mayor avance estan
+                        en versión pública, puedes consultarlos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
             <div>
                 <span class="title-contact">¿Creamos algo juntos?</span>
-                <form action="">
+                <form>
                     <div class="input-container">
                         <input id="email" placeholder="Déjame tu email">
                         <label for="email" class="fa fa-user input-icon"></label>
@@ -168,12 +243,12 @@
                 <a href=""><i class="fab fa-github"></i></a>
                 <a href=""><i class="fab fa-youtube"></i></a>
             </div>
-        </section>
+        </div>
         <footer>
             <div class="footer">
                 <p>Curso de Desarrollo Web Online 2020 </p>
-                <p>Designed with <i class="fas fa-heart"></i> by <a href="">Paloma RM</a> <i
-                        class="fas fa-copyright"></i>
+                <p>Designed with <i class="fas fa-heart"></i> by <a href="">Paloma RM</a>
+                    <i class="fas fa-copyright"></i>
                 </p>
             </div>
         </footer>
