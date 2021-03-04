@@ -1,26 +1,32 @@
-.contact {
+.contact-containerr {
+    width: 100%;
+    height: 250px;
     background-color: #0d1725;
-    height: 200px;
     color: #ffffff;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    padding: 150px 30px;
-    clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 20%, 0 0);
-    margin-top: -63px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 11%, 0 0);
 }
 
-.contact .title-contact {
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.contact .input-container {
+.data-container .form-container .input-container {
     position: relative;
+    margin: 20px 0;
 }
 
-.contact .input-container .input-icon {
+.data-container .form-container .input-container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 0px 0px 45px;
+    font-size: 15px;
+}
+
+.input-icon {
+    color: #000000;
     position: absolute;
     left: 10px;
     top: calc(50% - 0.5em);
@@ -29,21 +35,22 @@
     font-weight: bolder;
 }
 
-.contact .input-container input {
-    height: 40px;
-    width: 100%;
-    border: none;
-    border-radius: 8px;
-    padding: 0px 0px 0px 45px;
-    font-size: 15px;
-    margin: 10px 0px;
+.data-container .title {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
 }
 
-.contact button {
-    display: block;
+.social-container {
+    letter-spacing: 50px;
+    font-size: 50px;
+    text-align: center;
 }
 
-.contact .social-links {
-    letter-spacing: 20px;
-    font-size: 40px;
+.social-container a {
+    color: #ffffff;
+}
+
+.social-container a:hover {
+    color: #b6b6b6;
 }
