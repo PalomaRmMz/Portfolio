@@ -1,0 +1,25 @@
+.Navbar {
+    background-color: #0d1725;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 5px 8px #04070c;
+    /* sticky  */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+.Navbar__logo {
+    height: 60px;
+}
+
+.Navbar__items {
+    display: flex;
+    gap: 25px;
+}
